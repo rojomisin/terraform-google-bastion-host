@@ -266,3 +266,8 @@ variable "additional_networks" {
   }))
 }
 
+variable "can_ip_forward" {
+  type        = bool
+  description = "If we need to enable ip forwarding"
+  default     = false
+}
