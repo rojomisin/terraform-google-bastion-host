@@ -18,14 +18,14 @@ terraform {
   required_providers {
     google = {
       source  = "hashicorp/google"
-      version = ">= 3.53, < 5.0"
+      version = ">= 3.53, < 6"
     }
     random = {
       source  = "hashicorp/random"
-      version = "~> 3.0"
+      version = ">= 3.0"
     }
   }
   provider_meta "google" {
-    module_name = "blueprints/terraform/terraform-google-bastion-host/v5.2.0"
+    module_name = "blueprints/terraform/terraform-google-bastion-host/v6.0.0"
   }
 }
